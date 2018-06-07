@@ -1,0 +1,6 @@
+ c=window.prompt("Enter number");
+ num=Math.floor((Math.random() * 10) + 1);
+ if(c===num)
+ document.write("goodwork"+num);
+ else
+ document.write("not match"+num); 

@@ -1,0 +1,3 @@
+f=window.prompt("Enter file name with extension");
+ var fex=f.substr((f.lastIndexOf('.')+1));
+ document.write("Extension is: "+fex);

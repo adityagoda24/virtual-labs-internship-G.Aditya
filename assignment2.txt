@@ -1,0 +1,5 @@
+var year=prompt("Enter the year:");
+if( (year%4 ===0) && (year%4 !==100) || (year%400 ===0) )
+    document.write("Leap year");
+else 
+    document.write("not leap year");
