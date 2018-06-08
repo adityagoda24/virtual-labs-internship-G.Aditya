@@ -1,0 +1,7 @@
+<script>
+string_to_array = function (a)
+ {
+     return a.trim().split(" ");
+};
+document.write(string_to_array("Outreach Internship"));
+</script>
